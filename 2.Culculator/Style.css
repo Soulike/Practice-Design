@@ -1,0 +1,89 @@
+html, body {
+    margin-top: 0;
+    font-family: "Segoe UI Light", sans-serif;
+}
+
+header {
+    text-align: center;
+    border: dashed 1px #FFFFFF;
+    border-radius: 50px;
+    background: #66CCFF;
+    font-family: 楷体, sans-serif;
+}
+
+.innertable {
+    display: table;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    border: solid #66ccff;
+    margin-left: 25%;
+    border-radius: 25px;
+}
+
+.table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.table button, #screen, #historycontainer {
+    display: table-cell;
+}
+
+
+#screen {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border: solid 1px #66CCFF;
+    border-radius: 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.table button {
+    width: 50px;
+    height: 50px;
+    font-size: larger;
+    background-color: #66CCFF;
+    color: white;
+    border: white solid 2px;
+    border-radius: 10px;
+}
+
+.table button#equal {
+    width: 100px;
+    margin-left: 100px;
+}
+
+#historycontainer input {
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #FFFFFF;
+    border: dotted 1px #66CCFF;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+footer {
+    text-align: center;
+    color: #666666;
+    background-color: #66CCFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: xx-small;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

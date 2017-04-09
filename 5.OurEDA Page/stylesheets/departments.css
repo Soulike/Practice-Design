@@ -1,0 +1,83 @@
+#departments {
+    background-image: url("../images/departments/departmentsBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 54em;
+    text-align: center;
+}
+
+#departments p {
+    text-indent: 2em;
+    text-align: justify;
+    width: 15em;
+    height: 15em;
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+    cursor: default;
+    line-height: 1.5em;
+}
+
+.groupBlock {
+    margin-top: 12em;
+    display: inline-block;
+    text-align: center;
+    margin-left: 5em;
+    transition: 0.75s;
+    border-radius: 1.5em;
+}
+
+.Icon {
+    display: inline-block;
+    width: 10em;
+    height: 10em;
+}
+
+#Web {
+    margin-left: 0;
+}
+
+#Web:hover, #Web p {
+    background-color: rgb(0, 102, 204);
+    box-shadow: rgb(0, 102, 204) 0 0 1em;
+}
+
+#webSmallIcon {
+    background-image: url("../images/departments/Web pic.png");
+    background-size: contain;
+}
+
+#iOSSmallIcon {
+    background-image: url("../images/departments/iOS pic.png");
+    background-size: contain;
+}
+
+#iOS p, #iOS:hover {
+    background-color: #000000;
+    box-shadow: #000000 0 0 1em;
+}
+
+#UISmallIcon {
+    background-image: url("../images/departments/UI pic.png");
+    background-size: contain;
+}
+
+#UI p, #UI:hover {
+    background-color: rgb(94, 34, 114);
+    box-shadow: rgb(94, 34, 114) 0 0 1em;
+}
+
+#AndroidSmallIcon {
+    background-image: url("../images/departments/Android pic.png");
+    background-size: contain;
+}
+
+#Android p {
+    line-height: 1.95em;
+}
+
+#Android p, #Android:hover {
+    background-color: rgb(164, 197, 56);
+    box-shadow: rgb(164, 197, 56) 0 0 1em;
+}
+

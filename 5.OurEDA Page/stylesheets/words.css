@@ -1,0 +1,7 @@
+#word1 {
+    height: 20em;
+    width: 100%;
+    background-image: url("../images/words/word1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

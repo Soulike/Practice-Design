@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <script src="scripts/thirdPart/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/thirdPart/jquery.hovertreescroll.js"></script>
+    <script src="scripts/main.js"></script>
+    <link rel="stylesheet" href="stylesheets/header.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/intro.css">
+    <link rel="stylesheet" href="stylesheets/departments.css">
+    <link rel="stylesheet" href="stylesheets/joinUs.css">
+    <link rel="stylesheet" href="stylesheets/words.css">
+    <link rel="icon" href="images/icons/OurEDA-ICON-Small.png">
+    <title>OurEDA</title>
+</head>
+<body>
+<section id="preLoad">
+    <img src="images/icons/Android%20hover.png" alt="">
+    <img src="images/icons/iOS%20hover.png" alt="">
+    <img src="images/icons/UI%20hover.png" alt="">
+    <img src="images/icons/Web%20hover.png" alt="">
+    <img src="images/joinUs/button%20hover.png" alt="">
+</section>
+<header>
+    <img id="EDAHeader" src="images/header/EDA.png" alt="OurEDA">
+    <div id="links">
+        <a href="javascript:scrollToId('#intro')">
+            <img id="aboutUs" src="images/header/aboutUs.png" alt="about us"></a>
+        <div id="line"></div>
+        <a href="javascript:scrollToId('#joinUs')"><img src="images/header/joinUs.png" alt="join us"></a>
+    </div>
+</header>
+
+<section id="main">
+    <div id="edaIcon"></div>
+
+    <div id="groupIcons">
+        <a href="javascript:scrollToId('#departments')" id="webIcon"></a>
+        <a href="javascript:scrollToId('#departments')" id="iOSIcon"></a>
+        <a href="javascript:scrollToId('#departments')" id="androidIcon"></a>
+        <a href="javascript:scrollToId('#departments')" id="UIIcon"></a>
+    </div>
+</section>
+<section id="intro">
+    <div id="edaSmallIcon"></div>
+    <p>
+        OurEDA实验室建立于2007年，坐落于大连理工大学开发区校区综合楼4楼。OurEDA拥有国际标准工位50个，高配计算机40余台，并示波器、主机服务器等电子仪器设备。2012年实验室又为UI、IOS组安置苹果iMac一体机30余台并新购一批投影仪、液晶电视、摄像机等辅助设备。OurEDA实验室先后参与全球最大的森林传感网绿野千传、大连市高新园区科技项目等项目，参与完成大连理工大学“软件＋X”项目两项、大连理工大学教改项目一项、国家自然科学基金一项、大学生国家创新创业训练项目等。OurEDA成员先后参与了全国大学生电子设计竞赛、挑战杯、美新杯全国物联网竞赛、飞思卡尔智能小车竞赛等竞赛，获得过全国大学生电子设计竞赛全国二等奖、辽宁省特等奖和一等奖、校各等奖，挑战杯辽宁省一等奖、攀登杯校一等奖，移动MM应用辽宁赛区特等奖、国际、国家、东三省数学建模竞赛等几十项国际级、国家级、省级市级和校级奖项。实验室成立以来累计完成大学生创新训练计划20余项，实验室成员获得本科生优秀毕业设计论文5项，发表国际论文3篇，实验室目前拥有国家发明专利4项。实验室2009年被评为“榜样大工”2009年大连理工大学学术科研优秀奖，是我院也是我校唯一当选的科研团队。
+    </p>
+    <div id="introWord"></div>
+</section>
+<section id="word1"></section>
+<section id="departments">
+    <div class="groupBlock" id="Web">
+        <div class="Icon" id="webSmallIcon"></div>
+        <p>
+            Web前端工程师主要负责网页前端系统和功能的开发、调试和维护，前端技术框架和JavaScript等互动效果开发。我组成员主要要求学习掌握各种Web前端技术，包括XHTML/XML/JavaScript等，能快速设计师意图，了解各种设计软件，同时，鼓励精通一门非Web前端脚本的语言（如Java/PHP/C++）。
+        </p>
+    </div>
+    <div class="groupBlock" id="iOS">
+        <div class="Icon" id="iOSSmallIcon"></div>
+        <p>
+            iOS APP工程师指从事iOS移动应用操作系统、游戏和各种iOS平台功能的应用、开发和测试的技术人员。我组成员主要要求学习掌握iPhone
+            SDK相关技术开发及应用，学习Objective-C、Swift等技术语言，能了解iPhone/Mac操作系统特性，在项目中主要负责iPhone客户端的开发。
+        </p>
+    </div>
+    <div class="groupBlock" id="Android">
+        <div class="Icon" id="AndroidSmallIcon"></div>
+        <p>
+            Android工程师是指从事Android移动应用操作系统、游戏和各种Android平台功能的应用、开发和测试的技术人员。熟悉TCP/IP/HTTP通信息协议及原理。在项目中负责Android手机端的开发。
+        </p>
+    </div>
+    <div class="groupBlock" id="UI">
+        <div class="Icon" id="UISmallIcon"></div>
+        <p>
+            UI(User
+            Interface)设计是指对软件的人机交互、操作逻辑、界面美观的整体设计。我组的成员主要学习熟练掌握Photoshop、illustrator（AI）两款软件的操作。在项目中前期主要负责软件界面的美术设计、创意工作和制作工作；后期主要负责对软件进行优化，是用户操作更趋于人性化。
+        </p>
+    </div>
+</section>
+<section id="joinUs">
+    <div id="left">
+        <div id="joinUsBlock"></div>
+        <div id="contactMethod"></div>
+    </div>
+    <form action="" method="post">
+        <div class="table">
+            <div class="row">
+                <div class="cell">
+                    <label for="name">姓名：</label>
+                    <input id="name" name="name" type="text" placeholder="输入姓名">
+                </div>
+                <div class="cell">
+                    <label for="class">班级：</label>
+                    <input id="class" name="class" type="text" placeholder="软(软日)(软国)XXXX班">
+                </div>
+            </div>
+            <div class="row">
+                <div class="cell">
+                    <label for="phone">手机：</label>
+                    <input id="phone" name="phone" type="text" placeholder="11位手机号码">
+                </div>
+                <div class="cell">
+                    <label for="number">学号：</label>
+                    <input id="number" name="number" type="text" placeholder="9位学号">
+                </div>
+            </div>
+        </div>
+        <p id="submitMessage"></p>
+        <div id="messageWrapper">
+            <textarea id="message" name="message" placeholder="输入你想说的话吧！"></textarea>
+        </div>
+        <input id="btn" type="submit" value="">
+    </form>
+</section>
+
+<a href="javascript:scrollToId('#EDAHeader')">
+    <div id="backToTop"></div>
+</a>
+</body>
+</html>

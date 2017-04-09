@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html onkeypress="getcode(event)">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style.css">
+    <title>2048</title>
+</head>
+<body>
+<header>
+    <h1>2048</h1>
+</header>
+<content>
+    <div><p id="scores">得分：</p></div>
+    <div id="game">
+        <div id="line4">
+            <div id="block41"></div>
+            <div id="block42"></div>
+            <div id="block43"></div>
+            <div id="block44"></div>
+        </div>
+        <div id="line3">
+            <div id="block31"></div>
+            <div id="block32"></div>
+            <div id="block33"></div>
+            <div id="block34"></div>
+        </div>
+        <div id="line2">
+            <div id="block21"></div>
+            <div id="block22"></div>
+            <div id="block23"></div>
+            <div id="block24"></div>
+        </div>
+        <div id="line1">
+            <div id="block11"></div>
+            <div id="block12"></div>
+            <div id="block13"></div>
+            <div id="block14"></div>
+        </div>
+    </div>
+    <div id="newgamebutton">
+        <button onclick="initialize()" onmouseover="change('change',this)" onmouseleave="change('changeback',this)"
+                onmousedown="change('down',this)" onmouseup="change('up',this)">
+            新游戏
+        </button>
+    </div>
+</content>
+<footer>Made by Soulike @ OurEDA</footer>
+<script src="Script.js"></script>
+<script src="Change.js"></script>
+</body>
+</html>

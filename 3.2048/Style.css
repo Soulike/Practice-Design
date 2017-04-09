@@ -1,0 +1,146 @@
+html, body {
+    margin: 0;
+    font-family: "Segoe UI Light", sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    height: 20%;
+    background-color: #66CCFF;
+    border: 1px dashed white;
+    border-radius: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#scores {
+    text-align: center;
+    font-size: large;
+}
+
+#game {
+    display: table;
+    width: 360px;
+    height: 360px;
+    border: solid #66CCFF 2px;
+    margin: auto;
+}
+
+#line1, #line2, #line3, #line4 {
+    display: table-row;
+    height: 90px;
+    width: 100%;
+}
+
+#block11, #block12, #block13, #block14, #block21, #block22, #block23, #block24, #block31, #block32, #block33, #block34, #block41, #block42, #block43, #block44 {
+    display: table-cell;
+    border: solid #66CCFF 5px;
+    width: 90px;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+    font-size: xx-large;
+    transition: 0.25s;
+    text-shadow: 3px 3px 5px black;
+}
+
+#newgamebutton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#newgamebutton button:hover{
+    font-size: x-large;
+}
+
+#newgamebutton button {
+    height: 50px;
+    width: 100px;
+    background-color: #66CCFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    transition: 1s;
+    text-shadow: black 2px 2px 3px;
+}
+
+footer {
+    text-align: center;
+    color: #666666;
+    background-color: #66CCFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: xx-small;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+}
+
+.n2 {
+    background-color: #555555;
+}
+
+.n4 {
+    background-color: #777777;
+}
+
+.n8 {
+    background-color: #FFC0CB;
+}
+
+.n16 {
+    background-color: #FF0000;
+}
+
+.n32 {
+    background-color: #FF00FF;
+}
+
+.n64 {
+    background-color: #00FFFF;
+}
+
+.n128 {
+    background-color: #FFFF00;
+}
+
+.n256 {
+    background-color: #00FF00;
+    font-weight: bolder;
+}
+
+.n512 {
+    background-color: #0000FF;
+    font-weight: bolder;
+}
+
+.n1024 {
+    background-color: #808080;
+    font-weight: bolder;
+}
+
+.n2048 {
+    background-color: #FFA500;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

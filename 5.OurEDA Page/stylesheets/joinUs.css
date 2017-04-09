@@ -1,0 +1,133 @@
+#joinUs {
+    background-image: url("../images/joinUs/joinUsBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 54em;
+}
+
+#left {
+    float: left;
+    display: inline-block;
+    width: 25em;
+    margin-left: 10em;
+}
+
+#left, form {
+    margin-top: 8em;
+}
+
+#joinUsBlock {
+    display: inline-block;
+    background-image: url("../images/joinUs/joinUs.png");
+    background-size: contain;
+    width: 25em;
+    height: 17.5em;
+    box-shadow: white 0 0 1em;
+}
+
+#contactMethod {
+    display: inline-block;
+    color: white;
+    height: 17.5em;
+    width: 25em;
+    background-image: url("../images/joinUs/contactMethod.png");
+    background-size: contain;
+    box-shadow: white 0 0 1em;
+}
+
+form, #joinUsBlock, #contactMethod {
+    background-color: rgba(150, 150, 150, 0.75);
+    color: black;
+}
+
+input, #message {
+    background-color: rgba(200, 200, 200, 0.8);
+    font-family: "楷体", "Noto Sans CJK SC Regular", sans-serif;
+}
+
+input:focus, input:active, #message:focus, #message:active {
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: 0;
+}
+
+form {
+    display: inline-block;
+    height: 33.74em;
+    width: 50em;
+    margin-left: 0.5em;
+    padding-top: 1.5em;
+    box-shadow: white 0 0 1em;
+}
+
+input {
+    font-size: 1em;
+    width: 10em;
+    border: dotted 1px white;
+    transition: 1s;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding-top: 0.5em;
+    padding-right: 1em;
+}
+
+#messageWrapper {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#message {
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: 10em;
+    line-height: 1em;
+    border: dotted 1px;
+    border-radius: 0.5em;
+    transition: 1s;
+    outline: none;
+}
+
+#submitMessage {
+    text-align: center;
+    padding-top: 0.5em;
+    margin: 0.5em auto;
+    height: 1em;
+    font-size: 1.5em;
+    color: red;
+    transition: 0.25s;
+}
+
+#btn {
+    display: inline-block;
+    width: 14.5em;
+    height: 5em;
+    background-image: url("../images/joinUs/button.png");
+    background-size: contain;
+    border: none;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 1.5em;
+    margin-left: 33em;
+}
+
+#btn:hover {
+    background-image: url("../images/joinUs/button hover.png");
+    background-size: contain;
+}

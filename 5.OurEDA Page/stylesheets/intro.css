@@ -1,0 +1,37 @@
+#intro {
+    width: 100%;
+    background-image: url("../images/intro/introBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 54em;
+}
+
+#edaSmallIcon {
+    display: inline-block;
+    margin-left: 5em;
+    margin-right: 3em;
+    margin-bottom: 10em;
+    width: 26.55em;
+    height: 19.05em;
+    background-image: url("../images/departments/EDA pic.png");
+    background-size: contain;
+}
+
+#intro p {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 34em;
+    padding: 1em;
+    text-indent: 2em;
+    margin-top: 4em;
+    color: white;
+    background-color: rgba(0, 100, 255, 0.8);
+    border-radius: 1em;
+    line-height: 1.5em;
+    box-shadow: black 0 0 2em;
+    text-align: justify;
+    cursor: default;
+    background-image: url("../images/intro/introWordLight.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

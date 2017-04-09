@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Soulike">
+    <meta name="description" content="A simple calculator">
+    <link rel="icon" href="Icon.png">
+    <link rel="stylesheet" href="Style.css">
+    <title>简易计算器</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+<header>
+    <h1 class="title">简易计算器</h1>
+</header>
+<content>
+    <div class="table">
+        <div class="tableRow">
+            <div class="innertable">
+                <div class="tableRow">
+                    <div id="screencontainer">
+                        <input id="screen" type="text" disabled>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <div class="tableRow">
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="reclear()">C
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show('(')">(
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(')')">)
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show('÷')">÷
+                        </button>
+                    </div>
+                    <div class="tableRow">
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(7)">7
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(8)">8
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(9)">9
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show('×')">×
+                        </button>
+                    </div>
+                    <div class="tableRow">
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(4)">4
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(5)">5
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(6)">6
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show('-')">-
+                        </button>
+                    </div>
+                    <div class="tableRow">
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(1)">1
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(2)">2
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show(3)">3
+                        </button>
+                        <button onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)"
+                                onmouseup="FontSizeNormal(this)" onclick="show('+')">+
+                        </button>
+                    </div>
+                    <div class="tableRow">
+                        <button id="equal" onmouseover="BackGroundHover(this)" onmouseout="BackGroundNormal(this)"
+                                onmousedown="FontSizeOn(this)" onmouseup="FontSizeNormal(this)" onclick="equal()">=
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="historycontainer">
+                <input type="text" id="history" disabled>
+            </div>
+        </div>
+    </div>
+</content>
+<footer>Mini-Calculator Made by Soulike @ OurEDA</footer>
+
+</body>
+</html>

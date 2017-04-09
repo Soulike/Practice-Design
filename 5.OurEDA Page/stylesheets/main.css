@@ -1,0 +1,123 @@
+body {
+    width: 1267px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 13px;
+    font-family: "楷体", "Noto Sans CJK SC Regular", sans-serif;
+    background-color: grey;
+}
+
+#preLoad {
+    display: none;
+}
+
+#main {
+    width: 100%;
+    background-image: url("../images/main/mainBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 54em;
+}
+
+#edaIcon {
+    display: inline-block;
+    height: 12.8em;
+    width: 49.45em;
+    margin-top: 8em;
+    margin-left: 26%;
+    padding-top: 6em;
+    background-image: url("../images/main/OurEDA-ICON.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#groupIcons {
+    text-align: center;
+    margin-top: 5em;
+}
+
+#groupIcons a {
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+}
+
+#groupIcons a {
+    margin-left: 4em;
+}
+
+#webIcon {
+    height: 1em;
+    width: 1em;
+    background-image: url("../images/icons/Web.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#webIcon:hover {
+    background-image: url("../images/icons/Web hover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#iOSIcon {
+    height: 1em;
+    width: 1em;
+    background-image: url("../images/icons/iOS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#iOSIcon:hover {
+    background-image: url("../images/icons/iOS hover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#androidIcon {
+    height: 1em;
+    width: 1em;
+    background-image: url("../images/icons/Android.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#androidIcon:hover {
+    background-image: url("../images/icons/Android hover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#UIIcon {
+    height: 1em;
+    width: 1em;
+    background-image: url("../images/icons/UI.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+#UIIcon:hover {
+    background-image: url("../images/icons/UI hover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#backToTop {
+    background-image: url("../images/backToTop/backToTop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 5em;
+    bottom: 4em;
+    width: 7.5em;
+    height: 7.5em;
+    z-index: 999;
+    opacity: 0.25;
+    background-color: black;
+    transition: 0.5s;
+    border-radius: 1.5em;
+}
